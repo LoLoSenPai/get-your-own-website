@@ -6,7 +6,7 @@ export function Footer() {
         <footer className="bg-black text-slate-100 py-12 relative">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center">
-                    <div className="mb-6">
+                    {/* <div className="mb-6">
                         <a
                             href="https://twitter.com"
                             target="_blank"
@@ -31,7 +31,7 @@ export function Footer() {
                         >
                             LinkedIn
                         </a>
-                    </div>
+                    </div> */}
                     <p>
                         &copy; <span id="year">{new Date().getFullYear()}</span> BlockchainDev.
                         {/* &copy; <span id="year">2024</span> BlockchainDev. */}

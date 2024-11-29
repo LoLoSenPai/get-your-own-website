@@ -33,7 +33,7 @@ export default function Home() {
         <BentoGridComponent />
       </div>
       {/* <Contact /> */}
-      <div className="bg-black pt-10">
+      <div className="bg-black py-10">
         <SignupFormDemo />
       </div>
     </div>
