@@ -30,7 +30,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
   //   return Math.floor(Math.random() * 21) - 10;
   // };
   return (
-    <div className="max-w-sm md:max-w-4xl mx-auto antialiased font-sans px-4 md:px-8 lg:px-12 py-20">
+    <div className="max-w-sm md:max-w-4xl mx-auto antialiased font-sans px-4 md:px-8 lg:px-12 py-20 z-10">
       <div className="relative grid grid-cols-1 md:grid-cols-2 gap-20">
         <div>
           <div className="relative h-80 w-full">
@@ -49,9 +49,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
                     scale: isActive(index) ? 1 : 0.95,
                     z: isActive(index) ? 0 : -100,
                     rotate: isActive(index) ? 0 : 20,
-                    zIndex: isActive(index)
-                      ? 999
-                      : testimonials.length + 2 - index,
+                    zIndex: isActive(index) ? 40 : 30,
                     y: isActive(index) ? [0, -80, 0] : 0,
                   }}
                   exit={{
@@ -79,7 +77,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
             </AnimatePresence>
           </div>
         </div>
-        <div className="flex justify-between flex-col py-4">
+        <div className="flex justify-between flex-col py-4 md:pl-6">
           <motion.div
             key={active}
             initial={{

@@ -9,7 +9,6 @@ export default function Home() {
     <div className="relative">
       {/* Section 1 */}
       <BackgroundLines className="relative flex items-center justify-center w-full flex-col px-4 bg-transparent backgroundImage2">
-        {/* Contenu principal */}
         <h2 className="relative z-20 bg-clip-text text-transparent text-center bg-gradient-to-r from-fuchsia-600 to-blue-600 dark:from-neutral-600 dark:to-white text-2xl md:text-4xl lg:text-7xl font-sans py-2 md:py-10 font-bold tracking-tight">
           Empower your business <br /> with a stunning website.
         </h2>
