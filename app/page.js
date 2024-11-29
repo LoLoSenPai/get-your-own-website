@@ -1,7 +1,6 @@
 import { BackgroundLines } from "@/components/ui/background-lines";
 import { BentoGridComponent } from "@/components/Bento";
 import { AnimatedTestimonialsComponent } from "@/components/Testimonials";
-import Contact from "@/components/Contact";
 import { SignupFormDemo } from "@/components/Form";
 
 export default function Home() {
