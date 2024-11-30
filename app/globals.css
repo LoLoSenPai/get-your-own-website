@@ -69,8 +69,12 @@
 }
 
 html {
-  scroll-behavior: smooth;
-  overscroll-behavior: none;
+  overflow: hidden; /* Empêche le scroll natif */
+  height: 100%;
+}
+
+.lenis [data-lenis-container] {
+  overflow: visible !important; /* Lenis gère le scroll */
 }
 
 .backgroundImage {
