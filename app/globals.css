@@ -70,6 +70,7 @@
 
 html {
   scroll-behavior: smooth;
+  overscroll-behavior: none;
 }
 
 .backgroundImage {
@@ -90,5 +91,6 @@ html {
   font-family: "Bungee", sans-serif;
   font-size: 1.5rem;
   color: #5032fd;
-  text-shadow: 0 0 5px #5df87f, 0 0 10px #5df87f, 0 0 20px #5df87f, 0 0 60px #5df87f;
+  text-shadow: 0 0 5px #5df87f, 0 0 10px #5df87f, 0 0 20px #5df87f,
+    0 0 60px #5df87f;
 }
