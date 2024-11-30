@@ -78,14 +78,14 @@ html {
 }
 
 .backgroundImage {
-  background-image: url("/ButterflyGrid.png");
+  background-image: url("/ButterflyGrid.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .backgroundImage2 {
-  background-image: url("/Butterfly.png");
+  background-image: url("/Butterfly.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
